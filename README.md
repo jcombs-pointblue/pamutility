@@ -1,7 +1,7 @@
 # pamutility
 Privileged Access Manager Utility
 
-This utility will create a vault and credential for Linux hosts in PAM.  This an Ant based NetBeans project.
+This utility will create a vault and credential for Linux hosts in Microfocus PAM.  This an Ant based NetBeans project.
 
 The command to load a single host is:
 
