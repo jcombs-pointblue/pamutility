@@ -23,6 +23,7 @@ To load multiple servers from a CSV file use the following command:
 here is an example of what should be in the CSV
 
 someserver.myorg.com,22,root,rootpw
+
 anotherserver.myorg.com,22,root,rootpw
 
 
