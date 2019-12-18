@@ -7,8 +7,6 @@ package com.pointblue.netiq.pam.util;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.security.cert.CertificateException;
-import java.security.cert.X509Certificate;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.ssl.SSLContextBuilder;
@@ -17,7 +15,6 @@ import org.apache.http.conn.ssl.NoopHostnameVerifier;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
 import org.apache.http.HttpHost;
 
 import org.apache.http.client.methods.HttpGet;
@@ -299,9 +296,7 @@ public class PamCredLoader {
 
     public CloseableHttpClient getHttpClient() {
         // tracer.trace("Getting http client in client");
-        CloseableHttpClient httpClient = null;
-        //TODO: need to properly set http vs Https
-        //httpClient = HttpClients.createDefault();
+        CloseableHttpClient httpClient = null;       
 
         CredentialsProvider provider = new BasicCredentialsProvider();
         provider.setCredentials(
