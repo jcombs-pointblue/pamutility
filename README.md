@@ -28,4 +28,5 @@ anotherserver.myorg.com,22,root,rootpw
 
 
 NOTE!!! The framework server must be able to SSH to the host since it retrieves the host key automatically.
+NOTE: you will need to run the package-for-store Ant task manually to generate a singlr jar file with all dependedencies included.
 
