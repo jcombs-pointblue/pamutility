@@ -12,7 +12,7 @@ The command to load a single host is:
 
 22 is the ssh port of the host. Change this if needed
 
-'root' is the account we are creating the credential for. For RHEL this will be 'default'
+'root' is the account we are creating the credential for.
 
 
 To load multiple servers from a CSV file use the following command:
